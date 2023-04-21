@@ -1,9 +1,9 @@
-# Macie Organization
+# Amazon Macie Organization Setup Using Terraform
 
 
 ## Introduction
 
-The Macie Organization solution will enable Amazon Macie by delegating administration to an Audit account within the Organization Management Account and configuring Macie within the delegated administrator account for all the existing and future AWS Organization accounts. Macie is also configured to send the findings to a central S3 bucket encrypted with a KMS key.
+The [Macie Organization](https://docs.aws.amazon.com/organizations/latest/userguide/services-that-can-integrate-macie.html) solution will enable Amazon Macie by delegating administration to an Audit account within the Organization Management Account and configuring Macie within the delegated administrator account for all the existing and future AWS Organization accounts. Macie is also configured to send the findings to a central S3 bucket encrypted with a KMS key.
 
 ## Target Architecture
 
